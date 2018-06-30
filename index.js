@@ -28,6 +28,6 @@ function nameToAttributes(drivers){
 function attributesToPhrase(drivers){
   
   return drivers.map((driver) => {
-    return `
+    return `${fullName.join}` is fro
   })
 }
