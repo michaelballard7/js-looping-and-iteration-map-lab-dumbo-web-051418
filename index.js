@@ -9,11 +9,14 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   return drivers.map((driver)=>{
-    return driver.split(" ").assign(
-      {firstname: driver[0]},
-      {lastname: driver[1]}
-   
+    let fullName = driver.split(" ")
+    
+    
+    fu.assign(
+      {firstname: fullName[0]},
+      {lastname: fullName[1]}
       )
+    return 
   })
 }
 
