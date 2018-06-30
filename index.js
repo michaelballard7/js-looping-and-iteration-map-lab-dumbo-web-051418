@@ -28,6 +28,6 @@ function nameToAttributes(drivers){
 function attributesToPhrase(drivers){
   
   return drivers.map((driver) => {
-    let message = `driver.fistst
+    let message = `${driver.name} is from ${driver.home}
   })
 }
