@@ -20,6 +20,8 @@ function nameToAttributes(drivers){
     
     let driverFirstName = fullName[0]
     let driverLastName = fullName[1]
+    
+    return {firstName: driverFirstName, lastName: driverLastName
   })
 }
 
