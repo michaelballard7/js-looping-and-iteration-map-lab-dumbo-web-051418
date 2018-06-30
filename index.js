@@ -17,6 +17,8 @@ function nameToAttributes(drivers){
     //   lastname: fullName[1]})
       
     // return fullName
+    
+    
   })
 }
 
