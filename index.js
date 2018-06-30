@@ -18,7 +18,8 @@ function nameToAttributes(drivers){
       
     // return fullName
     
-    
+    let driverFirstName = fullName[0]
+    let driverLastName = fullName[1]
     
   })
 }
