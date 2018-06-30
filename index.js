@@ -12,9 +12,9 @@ function nameToAttributes(drivers){
     let fullName = driver.split(" ")
     
     
-    fu.assign(
-      {firstname: fullName[0]},
-      {lastname: fullName[1]}
+    fullName.assign(
+      {firstname: fullName[0],
+      lastname: fullName[1]}
       )
     return 
   })
