@@ -9,6 +9,10 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   return drivers.map((driver)=>{
-    
+    return driver.
   })
+}
+
+function attributesToPhrase(){
+  
 }
